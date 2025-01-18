@@ -134,5 +134,5 @@ def send_message(to, message):
 
 if __name__ == "__main__":
     # with app.app_context():
-    #     fetch_orders("APP_USR-2208307698824097-011810-69807fad1450d5d6e47c94d32e2b29c2-129223542")
+    #     fetch_orders("<SEU_TOKEN_MELI>")
     app.run(debug=True, port=8080)
